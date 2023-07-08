@@ -3,8 +3,10 @@
  --main-italic: 'Josefin-italic';
  --main-title: 'Venose';
 
+ --color-bg: #F8F5F1;
  --color-beige: #F8F3EB;
- --color-fonce: #211F25;
+ /* --color-fonce: #211F25; */
+ --color-fonce: #414D63;
  --color-gris:  #727986;
 }
 @font-face {
@@ -27,8 +29,10 @@
 
 
 .body{
-  padding: 80px 3vw ;
+  padding: 80px 1.5vw ;
   font-family: 'Josefin';
+  background: var(--color-bg);
+  
 }
 
 /* @media (prefers-color-scheme: dark) {

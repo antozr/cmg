@@ -1,14 +1,24 @@
 @font-face {
-    font-family: "Venose";
-    src: url(../assets/fonts/Venose.ttf);
+  font-family: "Venose";
+  src: url(../assets/fonts/Venose.ttf);
 }
 
 @font-face {
-    font-family: "Josefin";
-    src: url(../assets/fonts/JosefinSans-VariableFont_wght.ttf);
+  font-family: "Josefin";
+  src: url(../assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: "Josefin-italic";
-    src: url(../assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+  font-family: "Josefin-italic";
+  src: url(../assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+.sect {
+  &__txt {
+    color: var(--color-fonce);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
 }
