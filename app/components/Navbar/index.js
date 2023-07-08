@@ -91,7 +91,7 @@ const Navbar = () => {
                   className={activeLink === 0 ? "nav__link nav__link--el" : "nav__link"}
                   aria-label="Je suis un lien vers la page."
                   replace={true}
-                  onClick={()=>changeActiveState()}
+                  onClick={changeActiveState}
                 >
                   {el.name}
                 </Link>
