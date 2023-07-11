@@ -12,9 +12,10 @@
         row-gap: 8vh;
         background-color: var( --color--bggris);
         margin: 10vh 0 10vh -1.5vw;
+        padding: 0 2vw;
 
         &>h2{
-            font-size: 6vw;
+            font-size: 8vw;
             
         }
     }
@@ -25,5 +26,18 @@
         justify-content: space-around;
         flex-wrap: wrap;
         column-gap: 5vw;
+        row-gap: 3vh;
+    }
+}
+
+@media(min-width:600px){
+    .sect{
+        &__inter{
+            height: 70vh;
+            &>h2{
+                font-size: 6vw;
+                
+            }
+        }
     }
 }
