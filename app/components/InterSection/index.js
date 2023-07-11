@@ -9,7 +9,7 @@ const InterSection = ({titleInter, nameBtn, linkBtn}) => {
             <h2 className="sect__title sect__title--big">
                 {titleInter}
             </h2>
-            <ButtonPage nameBtn={nameBtn} linkBtn={linkBtn}/>
+            <ButtonPage nameBtn={nameBtn} linkBtn={linkBtn} size={true}/>
         </div>
     </>
   )

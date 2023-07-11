@@ -15,9 +15,9 @@ export default function Home() {
     <>
     Nous sommes une chatterie familiale où les chats vivent avec nous, ils font partie à part entière de notre famille. Dés lors ils sont en contactes avec des enfants, des chiens et habitué au bruit de la vie quotidienne. Avec nos chattons, nous les habituons dés le plus jeunes âges à vivre avec nous, pour qu’il s’habitue au mieux chez vous. 
     </>,
-    <>
-    Reconnu par la région Wallonne avec notre numéro <b>d’agrément HK20504073</b>, on se situe dans la région de Charleroi dans&nbsp;le&nbsp;Hainaut. 
-    </>
+    <><b>
+    Reconnu par la région Wallonne avec notre numéro <span style={{color:"#727986" }}>d’agrément HK20504073</span>, on se situe dans la région de Charleroi dans&nbsp;le&nbsp;Hainaut. 
+    </b> </>
   ];
   return (
     <>

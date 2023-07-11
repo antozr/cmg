@@ -5,6 +5,9 @@
     flex-shrink: 0;
     position: relative;
     cursor: pointer;
+    &--big{
+      max-width: 890px;
+    }
 
     &:hover>div{
         transition: 0.3s;
@@ -43,6 +46,12 @@
     left: 0;
     z-index: 2;
     transition: 0.3s;
+
+    &--big{
+      max-width: 860px;
+      height: 50px;
+      
+    }
     
   }
   &__btnBottomBox{
