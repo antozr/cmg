@@ -1,0 +1,49 @@
+.sect {
+  &__contenut2 {
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.5vw;
+    margin: 20vh 0;
+  }
+}
+
+.contenut2 {
+  &__colG {
+    width: 50%;
+    height: 95%;
+    margin: 2% 0 0 0;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__colD {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+
+    & > h2 {
+      margin: 0 0 0 -3.8vw;
+    }
+  }
+
+  &__boxTxt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+
+    > div {
+      transform: translateY(28px);
+    }
+  }
+}
