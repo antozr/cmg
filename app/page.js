@@ -6,6 +6,7 @@ import InterSection from "./components/InterSection";
 export default function Home() {
   let allTitle = [<>Une envie de boules de poils</>
 ,<>Qui sommes nous ? </>,
+<>Une envie d en savoir plus </>,
 <></>];
   let allTxt = [
     <>
@@ -38,6 +39,17 @@ export default function Home() {
           titleInter={allTitle[0]}
           nameBtn={" Voir les chattons "}
           linkBtn={"/noschattons"}
+          size1={true}
+        />
+        <InterSection
+          titleInter={allTitle[2]}
+          nameBtn={" Par email "}
+          linkBtn={"maito:arnouldfelicie5@hotmail.com?subject=Demande d'informations sur la chatterie"}
+          size1={true}
+          nameBtn2={"Facebook"}
+          linkBtn2={"#"}
+          size2={true}
+          secondBtn={true}
         />
       </div>
     </>
