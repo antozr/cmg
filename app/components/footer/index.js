@@ -9,9 +9,9 @@ const Foot = () => {
       <footer className="foot">
         <div className="foot__top">
             <div className="foot__logoBox">
-                <p className="foot__logo">
+                <Link href={'/'}  className="foot__logo" aria-label="Redirection vers la page d'acceuil.">
                     CMG
-                </p>
+                </Link>
             </div>
             <div className="foot__linkBox">
                 <h2 className="foot__title">

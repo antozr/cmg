@@ -13,6 +13,32 @@
     font-size: 16px;
     font-weight: 300;
     text-transform: capitalize;
+    margin: 6px 0;
+  }
+  &__title {
+    color: #1c212b;
+    font-family: "Josefin";
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 0 16px 0;
+  }
+  &__link {
+    cursor: pointer;
+    display: inline-flex;
+    color: #1c212b;
+    font-family: "Josefin";
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 4px 0;
+    padding: 2px 6px 2px 0px;
+    transition: 0.3s;
+
+    &:hover {
+      transition: 0.3s;
+      padding: 2px 6px 2px 20px;
+    }
   }
   &__bot {
     width: 100%;
@@ -21,5 +47,31 @@
     & > p {
       text-align: center;
     }
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5vh 3vw 0;
+  }
+  &__logoBox {
+    width: 216px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+  }
+
+  &__logo{
+    font-family: var( --main-title);
+    color: var(--color-fonce);
+text-align: center;
+font-size: 38px;
+font-weight: 400;
+
   }
 }
