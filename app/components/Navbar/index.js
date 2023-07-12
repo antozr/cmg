@@ -44,6 +44,8 @@ const Navbar = () => {
   function changeActiveState(e){
 
     let allLink = document.querySelectorAll('.nav__link');
+    activeMenuMobile();
+
 
     allLink.forEach((el)=>{
       el.classList.remove('nav__link--actif')
