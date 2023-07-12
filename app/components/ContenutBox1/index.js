@@ -15,7 +15,7 @@ const ContenutBox1 = ({title, txt1, txt2, urlImg}) => {
         </div>
 
         <div className="contenut__colD">
-          <h2 className="sect__title sect__title--2 sect__title--ecartG">{title}</h2>
+          <h2 className="sect__title contenut--2 sect__title--ecartG">{title}</h2>
           <div className="contenut__boxTxt">
             <p className="sect__txt">
               {txt1}

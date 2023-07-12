@@ -30,9 +30,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 5vh;
+    padding: 0 5vw;
 
     & > h2 {
-      margin: 0 0 0 -3.8vw;
+      margin: 8vh 0 0 0vw;
+      font-size: 8vw;
     }
   }
 
@@ -68,9 +70,10 @@
         &__colD {
           width: 40%;
           row-gap: 5vh;
-      
+          padding: 0 0vw;
           & > h2 {
             margin: 0 0 0 -3.8vw;
+            font-size: 5vw;
           }
         }
       
