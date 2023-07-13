@@ -51,9 +51,9 @@ const Navbar = () => {
     console.log();
 
     allLink.forEach((el)=>{
-      el.classList.remove('nav__link--actif')
+      el.parentElement.classList.remove('nav__el--actif')
     })
-    e.target.parentElement.classList.add('nav__link--actif')
+    e.target.parentElement.classList.add('nav__el--actif')
   }
 
 
@@ -88,10 +88,10 @@ const Navbar = () => {
           </button>
           <ul className="nav__list">
             
-            {allLinkArray.map((el) => (
+            {allLinkArray.map((el, key) => (
               <li className="nav__el">
                 <Link
-                key={el.index}
+                key={key}
                   href={el.link}
                   className={activeLink === 0 ? "nav__link nav__link--el" : "nav__link"}
                   aria-label="Je suis un lien vers la page."
