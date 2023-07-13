@@ -48,12 +48,12 @@ const Navbar = () => {
     if(window.innerWidth < 600){
       activeMenuMobile()
     }
-
+    console.log();
 
     allLink.forEach((el)=>{
       el.classList.remove('nav__link--actif')
     })
-    e.target.classList.add('nav__link--actif')
+    e.target.parentElement.classList.add('nav__link--actif')
   }
 
 
