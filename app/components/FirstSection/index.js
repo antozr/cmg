@@ -2,7 +2,7 @@ import React from "react";
 import ButtonPage from "../ButtonPage";
 import "./FirstSection.scss";
 
-const FirstSection = ({ firstTxt, nameTitle, linkBtn, nameBtn, urlImg }) => {
+const FirstSection = ({ firstTxt, nameTitle, linkBtn, nameBtn, urlImg ,linkBtn2, nameBtn2, secondBtn}) => {
   return (
     <>
       <section className="sect__first">
@@ -21,6 +21,7 @@ const FirstSection = ({ firstTxt, nameTitle, linkBtn, nameBtn, urlImg }) => {
           <div className="colGauche__boxContent">
             <p className="sect__txt">{firstTxt}</p>
             <ButtonPage linkBtn={linkBtn} nameBtn={nameBtn} />
+            {secondBtn === true ? <ButtonPage linkBtn={linkBtn2} nameBtn={nameBtn2} />:""}
           </div>
         </div>
 

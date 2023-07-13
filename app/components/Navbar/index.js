@@ -44,7 +44,10 @@ const Navbar = () => {
   function changeActiveState(e){
 
     let allLink = document.querySelectorAll('.nav__link');
-    activeMenuMobile();
+    
+    if(window.innerWidth < 600){
+      activeMenuMobile()
+    }
 
 
     allLink.forEach((el)=>{
