@@ -91,6 +91,17 @@
             max-width: 50ch;
         }
     }
+    &__link{
+        color: var(--color-gris);
+        transition: 0.3s;
+        text-decoration: underline;
+
+        &:hover{
+            transition: 0.3s;
+            color: var(--color-fonce);
+            text-decoration: none;
+        }
+    }
 }
 
 
