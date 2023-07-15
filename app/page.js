@@ -1,4 +1,3 @@
-import ButtonPage from "./components/ButtonPage";
 import SectionTexteSecondaire from "./components/ContenuBox2";
 import ContenutBox1 from "./components/ContenutBox1";
 import FirstSection from "./components/FirstSection";
