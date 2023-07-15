@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import "./style.scss";
 import ButtonPage from "../ButtonPage";
 
-const BoxInfoChat = ({ urlImg1, ageChat, allDataChat, bgColor }) => {
+const BoxInfoChat = ({ urlImg1, ageChat, allDataChat, bgColor, txtBtn }) => {
   const [ageC, setAgeC] = useState(0);
   let date = new Date().getUTCFullYear();
   console.log(date);
@@ -35,7 +35,7 @@ const BoxInfoChat = ({ urlImg1, ageChat, allDataChat, bgColor }) => {
           <div className="boxChat__boxBtn">
             <ButtonPage nameBtn={"Pédigré"} linkBtn={"#"} />
             <ButtonPage
-              nameBtn={"Demande de saillie"}
+              nameBtn={txtBtn}
               linkBtn={
                 "mailto:arnouldfelicie5@hotmail.com?subject:Demande-de-saillie"
               }

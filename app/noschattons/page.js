@@ -74,6 +74,7 @@ const chattons = () => {
         }
         allDataChat={dataChat[0]}
         ageChat={2023}
+        txtBtn={'Le réserver'}
       />
       <BoxInfoChat
         urlImg1={
@@ -81,6 +82,7 @@ const chattons = () => {
         }
         allDataChat={dataChat[0]}
         ageChat={2023}
+        txtBtn={'Le réserver'}
       />
       <BoxInfoChat
         urlImg1={
@@ -88,6 +90,7 @@ const chattons = () => {
         }
         allDataChat={dataChat[0]}
         ageChat={2023}
+        txtBtn={'Le réserver'}
       />
       <BoxInfoChat
         urlImg1={
@@ -95,6 +98,7 @@ const chattons = () => {
         }
         allDataChat={dataChat[0]}
         ageChat={2023}
+        txtBtn={'Le réserver'}
       />
     </>
   );
