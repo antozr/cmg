@@ -4,14 +4,14 @@ import React, { useEffect, useState } from "react";
 import "./style.scss";
 import ButtonPage from "../ButtonPage";
 
-const BoxInfoChat = ({ urlImg1, ageChat, allDataChat }) => {
+const BoxInfoChat = ({ urlImg1, ageChat, allDataChat, bgColor }) => {
   const [ageC, setAgeC] = useState(0);
   let date = new Date().getUTCFullYear();
   console.log(date);
 
   return (
     <>
-      <div className="sect__boxChat sect__boxChat--fonce">
+      <div className={bgColor === true ? "sect__boxChat sect__boxChat--fonce": "sect__boxChat"}>
         <div className="boxChat__colG">
           <img
             src={urlImg1}
@@ -29,8 +29,8 @@ const BoxInfoChat = ({ urlImg1, ageChat, allDataChat }) => {
               <i>Date de naissance </i> : {allDataChat.DateB}
             </li>
             <li className="baxChat__el"><i>Couleur</i> : {allDataChat.couleur}</li>
-            <li className="baxChat__el"><i>Titre</i> : {allDataChat.titre}</li>
-            <li className="baxChat__el"><i>Titre</i> : {allDataChat.portee}</li>
+            <li className="baxChat__el"><i>Titre(s)</i> : {allDataChat.titre}</li>
+            <li className="baxChat__el"><i>Portée(s)</i> : {allDataChat.portee}</li>
           </ul>
           <div className="boxChat__boxBtn">
             <ButtonPage nameBtn={"Pédigré"} linkBtn={"#"} />

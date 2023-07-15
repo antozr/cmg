@@ -24,6 +24,7 @@ const NosChats = () => {
       />
 
       <BoxInfoChat allDataChat={dataChat[0]} ageChat={2021} urlImg1={'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60'} />
+      <BoxInfoChat allDataChat={dataChat[1]} bgColor={true}  ageChat={2019} urlImg1={'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60'} />
     </>
   )
 }
