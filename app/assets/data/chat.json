@@ -1,0 +1,15 @@
+[{
+    "name":"Soda",
+    "sexe": "Mâle",
+    "DateB": "10/09/2022 ",
+    "couleur":"Bleu",
+    "titre":"champion junior",
+    "portee":1
+},{
+    "name":"Osiris",
+    "sexe":"Femelle",
+    "DateB":"10/09/2022 ",
+    "couleur":"Creme",
+    "titre":"champion junior",
+    "portee":"2"
+}]
