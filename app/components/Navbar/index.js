@@ -7,7 +7,7 @@ import "./Nav.scss";
 const Navbar = () => {
   let allLinkArray = [
     {
-      name: "Acceuil",
+      name: "Acceuils",
       link: "/",
       index: 0,
     },

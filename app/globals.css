@@ -11,6 +11,12 @@
  --color--bggris: #D9D9D9;
 }
 @font-face {
+  font-family: "Venose";
+  src: url(./assets/fonts/Venose.ttf);
+  src: url(https://chatterie.antoni-dumont.be/assets/fonts/Venose.ttf);
+
+}
+@font-face {
   font-family: "Josefin";
   src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
