@@ -21,11 +21,11 @@ const Navbar = () => {
       link: "/noschattons",
       index: 2,
     },
-    {
-      name: "En savoir +",
-      link: "/ensavoirplus",
-      index: 3,
-    },
+    // {
+    //   name: "En savoir +",
+    //   link: "/ensavoirplus",
+    //   index: 3,
+    // },
     {
       name: "Contacts",
       link: "/contacts",
