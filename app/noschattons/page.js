@@ -11,10 +11,7 @@ const chattons = () => {
       <FirstSection
         firstTxt={
           <>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat
-            ipsa dolore eos, voluptatum veritatis illo deleniti repellat ab
-            soluta rerum molestias, distinctio magnam? Voluptas sapiente commodi
-            nemo.{" "}
+           C’est avec plaisir que nous vous présenterons nos petits chattons, pour vous partager leurs petites bouilles . Ainsi que vous amenez à faire connaissance avec eux.
           </>
         }
         nameTitle={<>Les&nbsp;chattons </>}
@@ -29,27 +26,19 @@ const chattons = () => {
         title={"L'arrivee des chattons"}
         txt1={
           <>
-            {" "}
-            C’est avec grande joie que des petits chattons British Shorthair,
-            qui seront bientôt disponible mi-décembre pour venir dans vôtre
-            famille. Alors envie de voir leur petite bouille ? Et si tu allais
-            découvrir leur nom et voir leur première photo ? Tu pourras
-            découvrir tout de leur parents et avoir toute les informations pour
-            une futur adoption ( si tu as un coup de coeur ) .{" "}
+            C’est avec plaisir que nous vous informerons de nos futures portées. Pour l’instant aucun bébé n’est prévue.  
           </>
         }
         txt2={
           <>
-            {" "}
-            Les futurs parent sont <b>Soda</b> & <b>Osiris</b>, deux chats
-            british de couleur bleu & crème. La portée est attendue pour le
-            ../../.... Pour toutes informations suplémentaires,{" "}
+             Si vous souhaitez en savoir plus rendez-vous sur&nbsp;
             <a
               href="mailto:arnouldfelicie5@hotmail.com"
               className="contenut__link"
             >
-              vous pouvez nous contactez par e-mails.
+              notre page Facebook 
             </a>{" "}
+            pour plus d’information rapide.
           </>
         }
         urlImg={
@@ -68,38 +57,16 @@ const chattons = () => {
         size2={true}
       />
 
-      <BoxInfoChat
+
+{/* <BoxInfoChat
         urlImg1={
           "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
         }
         allDataChat={dataChat[0]}
         ageChat={2023}
         txtBtn={'Le réserver'}
-      />
-      <BoxInfoChat
-        urlImg1={
-          "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-        }
-        allDataChat={dataChat[0]}
-        ageChat={2023}
-        txtBtn={'Le réserver'}
-      />
-      <BoxInfoChat
-        urlImg1={
-          "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-        }
-        allDataChat={dataChat[0]}
-        ageChat={2023}
-        txtBtn={'Le réserver'}
-      />
-      <BoxInfoChat
-        urlImg1={
-          "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-        }
-        allDataChat={dataChat[0]}
-        ageChat={2023}
-        txtBtn={'Le réserver'}
-      />
+      /> */}
+      
     </>
   );
 };

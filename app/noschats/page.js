@@ -22,7 +22,7 @@ const NosChats = () => {
         txt2={<>Nous avons 2 chats, dont un mâle et une femelle, qui vivent dans notre chatterie & famille. C’est avec eux que nous réalisons des portées pour avoir des petits chattons qui font le bonheur de tous. Nous leur apportons les soins et l’amour qu’ils ont besoin ainsi que toutes l’affection dont ils ont besoin et bien plus encore. </>}
         urlImg={'https://images.unsplash.com/photo-1561948955-570b270e7c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=601&q=80'}
       />
-
+<div id="leschats"></div>
       <BoxInfoChat allDataChat={dataChat[0]} ageChat={2021} txtBtn={'Demande de saillie'} urlImg1={'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60'} />
       <BoxInfoChat allDataChat={dataChat[1]} bgColor={true} txtBtn={'Demande de saillie'}  ageChat={2019} urlImg1={'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60'} />
     </>

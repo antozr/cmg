@@ -21,15 +21,18 @@ const BoxInfoChat = ({ urlImg1, ageChat, allDataChat, bgColor, txtBtn }) => {
         </div>
 
         <div className="boxChat__colD">
-          <h3 className="boxChat__title">{allDataChat.name}</h3>
+          <h3 className="boxChat__title">{allDataChat.name}<br/><span className="boxChat__subTitle">{allDataChat.subName}</span></h3>
           <ul className="boxChat__list">
+          <li className="baxChat__el"><i>Chatterie</i> : {allDataChat.subName}</li>
             <li className="baxChat__el"><i>Sexe</i> : {allDataChat.sexe}</li>
             <li className="baxChat__el"><i>Âge</i> : {date - ageChat} ans</li>
             <li className="baxChat__el">
               <i>Date de naissance </i> : {allDataChat.DateB}
             </li>
+            <li className="baxChat__el"><i>Pays</i> : {allDataChat.land}</li>
+           
             <li className="baxChat__el"><i>Couleur</i> : {allDataChat.couleur}</li>
-            <li className="baxChat__el"><i>Titre(s)</i> : {allDataChat.titre}</li>
+            
             <li className="baxChat__el"><i>Portée(s)</i> : {allDataChat.portee}</li>
           </ul>
           <div className="boxChat__boxBtn">

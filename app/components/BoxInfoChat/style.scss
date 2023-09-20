@@ -46,6 +46,9 @@
     font-size: 38px;
     font-weight: 400;
   }
+  &__subTitle{
+    font-size: 21px;
+  }
 
   &__list{
     display: flex;
@@ -86,6 +89,11 @@
     }
     &__title {
         font-size:5vw ;
+        line-height: 60%;
+      }
+      &__subTitle{
+        font-size: 38px;
+        
       }
   }
 }

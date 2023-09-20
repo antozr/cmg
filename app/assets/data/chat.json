@@ -1,15 +1,19 @@
 [{
     "name":"Soda",
     "sexe": "Mâle",
-    "DateB": "10/09/2022 ",
-    "couleur":"Bleu",
-    "titre":"champion junior",
-    "portee":1
+    "DateB": "30/09/2021 ",
+    "couleur":"Bleu (BRLa)",
+    "subName":"Du Lion Bleu",
+    "portee":1,
+    "race":"British longhair",
+    "land": "Belgique"
 },{
     "name":"Osiris",
     "sexe":"Femelle",
-    "DateB":"10/09/2022 ",
-    "couleur":"Creme",
-    "titre":"champion junior",
-    "portee":"2"
+    "DateB":"17/09/2019 ",
+    "couleur":"Lilac cream",
+    "subName":"Little Dust of British",
+    "portee":2,
+    "race":"British shorthair",
+    "land": "Belgique"
 }]

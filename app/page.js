@@ -20,8 +20,8 @@ export default function Home() {
     <><b>
     Reconnu par la région Wallonne avec notre numéro <span style={{color:"#727986" }}>d’agrément HK20504073</span>, on se situe dans la région de Charleroi dans&nbsp;le&nbsp;Hainaut. 
     </b> </>,
-    <>Sam, here's the young man you hit with your car out there. He's alright, thank god. No sir, I'm gonna make something out of myself, I'm going to night school and one day I'm gonna be somebody. Well, safe and sound, now, n good old 1955. Yeah. Really.    </>,
-    <><b>Watch this. Not me, the car, the car. My calculations are correct, when this baby hits eighty-eight miles per hour, your gonna see some serious shit. Watch this, watch this. Ha, what did I tell you, eighty-eight miles per hour. The temporal displacement occurred at exactly 1:20 a.m. and zero seconds. Breakfast. Oh. How about a ride, Mister? Hey McFly, what do you think you're doing.
+    <>Ce sont des british shorthair & longhair, que nous avons depuis leurs plus jeunes âges. Ils évoluent dans un environnement familial, vivant entouré d’une famille, d’enfants mais aussi de chien. Ils reçoivent l’amour et l’affection qu’ils ont besoin tout en vivant leur vie en harmonie avec tout le monde.</>,
+    <><b>Nous avons un mâle et une femelle, de couleur différente, mais au caractère complémentaire. Ils sont proches de nous. Mais avec chacun leurs petits caractères qui les rend uniques et à qui on donne tous notre amour. Vous souhaitez en savoir plus sur eux ? 
     </b></>,
     <></>
   ];
