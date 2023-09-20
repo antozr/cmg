@@ -18,7 +18,7 @@ const NosChats = () => {
 
       <ContenutBox1
         title={<>Les British </>}
-        txt1={<>"Le british shorthair est une race de chat originaire de Grande-Bretagne. Ce chat de taille moyenne à grande est caractérisé par ses formes arrondies et ses grands yeux." </>}
+        txt1={<><i>"Le british shorthair est une race de chat originaire de Grande-Bretagne. Ce chat de taille moyenne à grande est caractérisé par ses formes arrondies et ses grands yeux." </i></>}
         txt2={<>Nous avons 2 chats, dont un mâle et une femelle, qui vivent dans notre chatterie & famille. C’est avec eux que nous réalisons des portées pour avoir des petits chattons qui font le bonheur de tous. Nous leur apportons les soins et l’amour qu’ils ont besoin ainsi que toutes l’affection dont ils ont besoin et bien plus encore. </>}
         urlImg={'https://images.unsplash.com/photo-1561948955-570b270e7c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=601&q=80'}
       />
