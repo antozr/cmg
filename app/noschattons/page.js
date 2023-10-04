@@ -16,7 +16,7 @@ const chattons = () => {
         }
         nameTitle={<>Les&nbsp;chattons </>}
         urlImg={
-          "https://images.unsplash.com/photo-1566847438217-76e82d383f84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+          "http://antoni-dumont.be/projets/cmg/chats/CHATTON-1.jpg"
         }
         nameBtn={"Voir nos chattons"}
         linkBtn={"#nosChattons"}
@@ -42,7 +42,7 @@ const chattons = () => {
           </>
         }
         urlImg={
-          "https://images.unsplash.com/photo-1547565560-7d3313e7fff1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+          "http://antoni-dumont.be/projets/cmg/chats/bebe-1.jpg"
         }
       />
 

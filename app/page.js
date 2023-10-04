@@ -32,12 +32,12 @@ Nous sommes une chatterie familiale où les chats vivent avec nous, ils font par
           nameBtn={"Voir les chats"}
           linkBtn={"/noschats"}
           urlImg={
-            "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80"
+            "http://antoni-dumont.be/projets/cmg/chats/home-head-1.jpg"
           }
         />
 
        
-        <ContenutBox1 title={allTitle[1]} txt1={allTxt[1]} txt2={allTxt[2]} urlImg={"https://images.unsplash.com/photo-1516139008210-96e45dccd83b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"} />
+        <ContenutBox1 title={allTitle[1]} txt1={allTxt[1]} txt2={allTxt[2]} urlImg={"http://antoni-dumont.be/projets/cmg/chats/home-perso-1.jpg"} />
         <InterSection
           titleInter={allTitle[0]}
           nameBtn={" Voir les chattons "}
@@ -45,7 +45,7 @@ Nous sommes une chatterie familiale où les chats vivent avec nous, ils font par
           size1={true}
         />
         <SectionTexteSecondaire 
-        urlImg={"https://images.unsplash.com/photo-1586289883499-f11d28aaf52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"}
+        urlImg={"http://antoni-dumont.be/projets/cmg/chats/british-img-1.jpg"}
         title={allTitle[3]}
         txt1={allTxt[3]}
         txt2={allTxt[4]}  />
