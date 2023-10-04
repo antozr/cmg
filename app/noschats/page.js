@@ -4,7 +4,7 @@ import ContenutBox1 from '../components/ContenutBox1'
 import BoxInfoChat from '../components/BoxInfoChat'
 
 import dataChat from '../assets/data/chat.json';
-import Soda1 from '../assets/images/SODA-1.jpg';
+
 
 const NosChats = () => {
   return (
