@@ -14,7 +14,7 @@ const NosChats = () => {
         firstTxt={<>Nous sommes un élevage de <b>chats British Shorthair</b>, avec des couleurs différentes pour chaque. Mais qui donne un charme dans la maison quand tout le monde est ensemble.<br/> Car nos chats sont élevés et vivent avec nous, et avec d’autres animaux, pour qu’ils soient sociabilisés, aussi bien avec des enfants que des chiens. <i>Ce sont des amours de chats. </i> </>}
         nameBtn={'Voir les chats'}
         linkBtn={'#leschats'}
-        urlImg={'http://antoni-dumont.be/projets/cmg/chats/SODA-1.jpg'}
+        urlImg={'http://antoni-dumont.be/projets/cmg/chats/head-2.jpg'}
       />
 
       <ContenutBox1

@@ -32,7 +32,7 @@ Nous sommes une chatterie familiale où les chats vivent avec nous, ils font par
           nameBtn={"Voir les chats"}
           linkBtn={"/noschats"}
           urlImg={
-            "http://antoni-dumont.be/projets/cmg/chats/home-head-1.jpg"
+            "http://antoni-dumont.be/projets/cmg/chats/head-3.jpg"
           }
         />
 

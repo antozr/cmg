@@ -16,7 +16,7 @@ const chattons = () => {
         }
         nameTitle={<>Les&nbsp;chattons </>}
         urlImg={
-          "http://antoni-dumont.be/projets/cmg/chats/CHATTON-1.jpg"
+          "http://antoni-dumont.be/projets/cmg/chats/chatton-2.jpg"
         }
         nameBtn={"Voir nos chattons"}
         linkBtn={"#nosChattons"}
