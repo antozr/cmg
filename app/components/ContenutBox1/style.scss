@@ -18,7 +18,7 @@
 
         
         &--ecartG{
-            margin: 0 0 0 -4vw;
+            margin: 0 0 0 0vw;
         }
     }
 
@@ -57,7 +57,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        row-gap: 6vh;
+        row-gap: 4vh;
         position: relative;
         padding: 0 5.5vw;
 
@@ -117,7 +117,7 @@
         &__title{ 
             
             &--ecartG{
-                margin: 0 0 0 -4vw;
+                margin: 0 0 0 0vw;
             }
         }
     
