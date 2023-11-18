@@ -35,12 +35,20 @@
 
 
 .body{
-  padding: 80px 1.5vw ;
+  padding: 00px 1.5vw 80px ;
   font-family: 'Josefin';
   background: var(--color-bg);
   
 }
-
+@media (min-width:600px){
+  .body{
+    padding: 80px 1.5vw ;
+    font-family: 'Josefin';
+    background: var(--color-bg);
+    
+  }
+  
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
