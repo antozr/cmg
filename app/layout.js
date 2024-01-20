@@ -15,13 +15,16 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <head>
         <meta charSet="utf8" />
+        <meta name="keywords" content="chatterie, cattery , chat, cat, kitten, chattons, chatton, belgique, cattery belgium,  british shorthair, british, shorthair, chatterie belgique, chatterie british belgique, cmg, chatterie du monde de gioia, chatterie gioia, monde de gioia, chatterie du monde de goia "/>
         <meta name="author" content="antozr" />
         <meta
           name="description"
           content="Vous vous retrouvez dans l'univers de la chatterie du Monde de Gioia, une chatterie qui élève des chats British Shorthair & Longhair."
         />
-        <meta name="keywords" content="chatterie, british shorthair, british, chatterie belgique, chatterie british belgique, cmg, chatterie du monde de gioia, chatterie du monde de goia "/>
+        <meta name="robots" content="index" />
+        <meta name="robots" content="all" />
         <title>CMG : La Chatterie du Monde de Gioia</title>
+        <meta name="google-site-verification" content="pH4Ng4AAK5KCS9EQyHuR-q9e5jnzphcbOGu0j28dnaI" />
       </head>
       <body className="body">
         <Navbar />
